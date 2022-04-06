@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="409.0" prefWidth="336.0" style="-fx-background-color: green;">
+         <children>
+            <Button fx:id="btn1" layoutX="18.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="1">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnadd" layoutX="256.0" layoutY="166.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="+">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn6" layoutX="179.0" layoutY="166.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="6">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn5" layoutX="98.0" layoutY="166.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="5">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn4" layoutX="18.0" layoutY="166.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="4">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnclr" layoutX="256.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="C">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn3" layoutX="179.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="3">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn2" layoutX="98.0" layoutY="92.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="2">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn7" layoutX="18.0" layoutY="246.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="7">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn9" layoutX="179.0" layoutY="246.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="9">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn8" layoutX="98.0" layoutY="246.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="8">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnsub" layoutX="256.0" layoutY="246.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="-">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnequl" layoutX="179.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="=">
+               <font>
+                  <Font name="Arial Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn0" layoutX="98.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="0">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btndiv" layoutX="21.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="/">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnmul" layoutX="256.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="52.0" style="-fx-background-color: lightblue;" text="X">
+               <font>
+                  <Font name="Arial Bold" size="26.0" />
+               </font>
+            </Button>
+            <TextField fx:id="display" alignment="CENTER_RIGHT" editable="false" layoutX="21.0" layoutY="25.0" prefHeight="52.0" prefWidth="288.0">
+               <font>
+                  <Font name="Arial Bold" size="27.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
